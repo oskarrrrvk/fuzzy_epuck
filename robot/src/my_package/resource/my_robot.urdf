@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <device reference="/e-puck/ps0" type="DistanceSensor">
+            <ros>
+                <topic_name>/ps0</topic_name>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <device reference="ps7" type="E-puckDistanceSensor">
+            <ros>
+                <topic_name>/ps7</topic_name>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>        
+        <plugin type="my_package.my_robot_driver.MyRobotDriver" />
+    </webots>
+</robot>

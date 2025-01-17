@@ -1,0 +1,35 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.08380963127683815 0.8891258618387179 -0.44992349073458876 0.41300017393293553
+  position -1.5218494214321727 0.27163074658407804 0.6991042535952141
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 8856.501675176729
+  hidden position_0_1 10376.458409683506
+  hidden linearVelocity_0 0.04063736992433846 0.038323811795128504 -3.2949048277815936e-08
+  hidden angularVelocity_0 0.0031816341226240832 -0.0033784559546297687 0.09523219175245336
+  hidden rotation_1 0 -1 0 2.7896079464880374
+  hidden linearVelocity_1 0.03881954275616713 0.036609720817737536 1.3418783195719545e-08
+  hidden angularVelocity_1 -1.8224715799423328 1.9324046052281487 0.0969580559377106
+  hidden rotation_2 0 -1 0 3.363717777170826
+  hidden linearVelocity_2 0.042421171157763914 0.0400060455707259 -1.1485223483385303e-08
+  hidden angularVelocity_2 -2.0082262640464044 2.1295349645412687 0.09723358225882472
+  translation 0.21109448550683232 -0.3450450422827617 -6.432108177976958e-05
+  rotation -7.4379228084587e-05 -0.00022418205855271356 -0.999999972105067 -0.7578918840617881
+  controller "<extern>"
+  window "<none>"
+}
